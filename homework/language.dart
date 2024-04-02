@@ -78,3 +78,17 @@ enum Planet{
   bool get isGiant =>
        planetType == PlanetType.gas || planetType == PlanetType.ice;
 }
+
+//interface
+class MockSpaceship implements Spacecraft{
+
+}
+abstract class Describable{
+  void describle();
+  void describeWithEmphasis(){
+    print('======');
+    describle();
+    print('======');
+  }
+}
+
