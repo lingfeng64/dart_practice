@@ -58,6 +58,12 @@ class Spacecraft {
       print('Unlaucnched');
     }
   }
+
+  //variables
+  var name = 'Bob';
+  Object name = 'Bob';
+  String name = 'Bob';
+  String ? name;
 }
 
 enum PlanetType{ terrestrial,gas,ice}
@@ -110,8 +116,3 @@ Future<void> createDescriptions(Iterable<String> objects) async {
   }
 }
 
-//variables
-var name = 'Bob';
-Object name = 'Bob';
-String name = 'Bob';
-String ? name;
