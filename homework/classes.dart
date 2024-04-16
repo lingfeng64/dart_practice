@@ -67,6 +67,7 @@ class Point {
 }
 
 void main() {
+  
   var a = Point(2, 2);
   var b = Point(4, 4);
   var distance = Point.distanceBetween(a, b);
